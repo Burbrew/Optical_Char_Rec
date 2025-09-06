@@ -1,0 +1,64 @@
+{
+  "predictions": {
+    "image_1.png": {
+      "text": "Hello World",
+      "confidence": 0.7901146854835764
+    },
+    "image_2.png": {
+      "text": "Thequick brown fox jumps over the lazy dog",
+      "confidence": 0.6401783563556472
+    },
+    "image_3.png": {
+      "text": "Computer vision is a field of artificial intelligence that trains computers to interpret and understand the visual world",
+      "confidence": 0.443968335340468
+    },
+    "image_4.png": {
+      "text": "Welcome to 0CR",
+      "confidence": 0.41973050017646796
+    },
+    "image_5.png": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "confidence": 0.46393527568791565
+    },
+    "image_6.png": {
+      "text": "Machine Learning",
+      "confidence": 0.2954585666790662
+    },
+    "image_7.png": {
+      "text": "Deep Learning",
+      "confidence": 0.03682274071741279
+    },
+    "image_8.png": {
+      "text": "Optical  Character  Recognition",
+      "confidence": 0.9013850371047989
+    },
+    "image_9.png": {
+      "text": "Data Science and Analytics",
+      "confidence": 0.7272200286539241
+    },
+    "image_10.png": {
+      "text": "Natural language processing combines computational linguistics with machine learning to help computers understand human language",
+      "confidence": 0.3521312026669948
+    },
+    "image_11.png": {
+      "text": "Python Programming",
+      "confidence": 0.3952696749173763
+    },
+    "image_12.png": {
+      "text": "Feature engineering is the process of selecting, modifying, or creating new features from raw data to improve model performance",
+      "confidence": 0.3997509745830538
+    },
+    "image_13.png": {
+      "text": "ImageProcessing",
+      "confidence": 0.3898423874637837
+    },
+    "image_14.png": {
+      "text": "Text Recognition",
+      "confidence": 0.039910277622046075
+    },
+    "image_15.png": {
+      "text": "Artificial Intelligence",
+      "confidence": 0.8026645119122944
+    }
+  }
+}

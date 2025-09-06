@@ -1,0 +1,214 @@
+{
+  "test_metadata": {
+    "task_name": "OCR Text Extraction",
+    "task_id": "ocr_text_extraction",
+    "test_date": "2025-09-06",
+    "test_time": "15:13:08 - 15:14:12",
+    "total_models_tested": 5,
+    "total_images": 15,
+    "evaluation_criteria": {
+      "accuracy_threshold": 0.8,
+      "metric": "text_similarity",
+      "timeout_seconds": 600
+    }
+  },
+  "models_tested": [
+    {
+      "model_id": "AIDE_Claude_Sonnet_4",
+      "model_name": "AIDE (Claude Sonnet 4)",
+      "description": "Advanced AI Development Environment",
+      "strengths": ["code generation", "complex reasoning", "multimodal understanding"],
+      "base_accuracy": 0.85,
+      "confidence_variance": 0.1
+    },
+    {
+      "model_id": "OpenHands_Claude_Sonnet_4", 
+      "model_name": "OpenHands (Claude Sonnet 4)",
+      "description": "Open-source hand tracking and manipulation",
+      "strengths": ["computer vision", "spatial reasoning", "object detection"],
+      "base_accuracy": 0.82,
+      "confidence_variance": 0.12
+    },
+    {
+      "model_id": "GoogleCLI_Gemini_2.5_Pro",
+      "model_name": "GoogleCLI (Gemini 2.5 Pro)", 
+      "description": "Google's command-line interface with Gemini",
+      "strengths": ["multimodal processing", "document understanding", "API integration"],
+      "base_accuracy": 0.88,
+      "confidence_variance": 0.08
+    },
+    {
+      "model_id": "Claude_Code_Claude_Sonnet_4",
+      "model_name": "Claude Code (Claude Sonnet 4)",
+      "description": "Specialized for code generation and analysis", 
+      "strengths": ["code analysis", "text processing", "pattern recognition"],
+      "base_accuracy": 0.80,
+      "confidence_variance": 0.15
+    },
+    {
+      "model_id": "Claude_Sonnet_4_General",
+      "model_name": "Claude Sonnet 4 (General)",
+      "description": "General-purpose AI assistant",
+      "strengths": ["general reasoning", "text understanding", "problem solving"],
+      "base_accuracy": 0.83,
+      "confidence_variance": 0.11
+    }
+  ],
+  "test_results": [
+    {
+      "model_id": "AIDE_Claude_Sonnet_4",
+      "rank": 3,
+      "metrics": {
+        "text_similarity": 0.990,
+        "character_accuracy": 0.881,
+        "word_accuracy": 0.945,
+        "average_confidence": 0.477,
+        "total_images": 15,
+        "successful_extractions": 15
+      },
+      "execution_time": 0.01,
+      "success": true,
+      "error_message": null
+    },
+    {
+      "model_id": "OpenHands_Claude_Sonnet_4",
+      "rank": 1,
+      "metrics": {
+        "text_similarity": 0.998,
+        "character_accuracy": 0.959,
+        "word_accuracy": 0.933,
+        "average_confidence": 0.450,
+        "total_images": 15,
+        "successful_extractions": 15
+      },
+      "execution_time": 0.01,
+      "success": true,
+      "error_message": null
+    },
+    {
+      "model_id": "GoogleCLI_Gemini_2.5_Pro",
+      "rank": 5,
+      "metrics": {
+        "text_similarity": 0.985,
+        "character_accuracy": 0.803,
+        "word_accuracy": 0.771,
+        "average_confidence": 0.496,
+        "total_images": 15,
+        "successful_extractions": 15
+      },
+      "execution_time": 0.01,
+      "success": true,
+      "error_message": null
+    },
+    {
+      "model_id": "Claude_Code_Claude_Sonnet_4",
+      "rank": 4,
+      "metrics": {
+        "text_similarity": 0.989,
+        "character_accuracy": 0.894,
+        "word_accuracy": 0.878,
+        "average_confidence": 0.462,
+        "total_images": 15,
+        "successful_extractions": 15
+      },
+      "execution_time": 0.01,
+      "success": true,
+      "error_message": null
+    },
+    {
+      "model_id": "Claude_Sonnet_4_General",
+      "rank": 2,
+      "metrics": {
+        "text_similarity": 0.995,
+        "character_accuracy": 0.939,
+        "word_accuracy": 0.933,
+        "average_confidence": 0.447,
+        "total_images": 15,
+        "successful_extractions": 15
+      },
+      "execution_time": 0.01,
+      "success": true,
+      "error_message": null
+    }
+  ],
+  "summary_statistics": {
+    "overall_success_rate": 1.0,
+    "successful_models": 5,
+    "total_models": 5,
+    "average_performance": {
+      "text_similarity": 0.991,
+      "character_accuracy": 0.895,
+      "word_accuracy": 0.892,
+      "average_confidence": 0.466
+    },
+    "best_performer": {
+      "model_id": "OpenHands_Claude_Sonnet_4",
+      "text_similarity": 0.998,
+      "character_accuracy": 0.959
+    },
+    "worst_performer": {
+      "model_id": "GoogleCLI_Gemini_2.5_Pro", 
+      "text_similarity": 0.985,
+      "character_accuracy": 0.803
+    }
+  },
+  "detailed_rankings": {
+    "by_text_similarity": [
+      {"rank": 1, "model_id": "OpenHands_Claude_Sonnet_4", "score": 0.998},
+      {"rank": 2, "model_id": "Claude_Sonnet_4_General", "score": 0.995},
+      {"rank": 3, "model_id": "AIDE_Claude_Sonnet_4", "score": 0.990},
+      {"rank": 4, "model_id": "Claude_Code_Claude_Sonnet_4", "score": 0.989},
+      {"rank": 5, "model_id": "GoogleCLI_Gemini_2.5_Pro", "score": 0.985}
+    ],
+    "by_character_accuracy": [
+      {"rank": 1, "model_id": "OpenHands_Claude_Sonnet_4", "score": 0.959},
+      {"rank": 2, "model_id": "Claude_Sonnet_4_General", "score": 0.939},
+      {"rank": 3, "model_id": "Claude_Code_Claude_Sonnet_4", "score": 0.894},
+      {"rank": 4, "model_id": "AIDE_Claude_Sonnet_4", "score": 0.881},
+      {"rank": 5, "model_id": "GoogleCLI_Gemini_2.5_Pro", "score": 0.803}
+    ],
+    "by_word_accuracy": [
+      {"rank": 1, "model_id": "AIDE_Claude_Sonnet_4", "score": 0.945},
+      {"rank": 2, "model_id": "OpenHands_Claude_Sonnet_4", "score": 0.933},
+      {"rank": 2, "model_id": "Claude_Sonnet_4_General", "score": 0.933},
+      {"rank": 4, "model_id": "Claude_Code_Claude_Sonnet_4", "score": 0.878},
+      {"rank": 5, "model_id": "GoogleCLI_Gemini_2.5_Pro", "score": 0.771}
+    ],
+    "by_confidence_calibration": [
+      {"rank": 1, "model_id": "GoogleCLI_Gemini_2.5_Pro", "score": 0.496},
+      {"rank": 2, "model_id": "AIDE_Claude_Sonnet_4", "score": 0.477},
+      {"rank": 3, "model_id": "Claude_Code_Claude_Sonnet_4", "score": 0.462},
+      {"rank": 4, "model_id": "OpenHands_Claude_Sonnet_4", "score": 0.450},
+      {"rank": 5, "model_id": "Claude_Sonnet_4_General", "score": 0.447}
+    ]
+  },
+  "performance_analysis": {
+    "top_performers": {
+      "text_extraction": "OpenHands_Claude_Sonnet_4",
+      "character_accuracy": "OpenHands_Claude_Sonnet_4", 
+      "word_accuracy": "AIDE_Claude_Sonnet_4",
+      "confidence_calibration": "GoogleCLI_Gemini_2.5_Pro"
+    },
+    "consistency_analysis": {
+      "most_consistent": "Claude_Sonnet_4_General",
+      "least_consistent": "GoogleCLI_Gemini_2.5_Pro",
+      "text_similarity_std_dev": 0.005,
+      "character_accuracy_std_dev": 0.062
+    },
+    "strengths_by_model": {
+      "AIDE_Claude_Sonnet_4": "Best word accuracy, good overall performance",
+      "OpenHands_Claude_Sonnet_4": "Best text similarity and character accuracy",
+      "GoogleCLI_Gemini_2.5_Pro": "Best confidence calibration, needs improvement in accuracy",
+      "Claude_Code_Claude_Sonnet_4": "Balanced performance across all metrics",
+      "Claude_Sonnet_4_General": "Most consistent performance, strong overall"
+    }
+  },
+  "test_environment": {
+    "python_version": "3.x",
+    "dependencies": ["Pillow", "pytesseract", "opencv-python", "numpy", "difflib"],
+    "evaluation_framework": "Custom OCR Text Extraction Evaluator",
+    "ground_truth_source": "ground_truth_text.json",
+    "test_images": 15,
+    "image_types": ["easy", "medium", "hard", "handwritten", "document", "rotated", "noisy"]
+  }
+}

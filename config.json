@@ -1,0 +1,21 @@
+{
+    "task_id": "ocr_text_extraction",
+    "name": "OCR Text Extraction: Extract Text from Images",
+    "prompt": "prompt.md",
+    "description": "Each image contains text in various formats, fonts, orientations, and quality levels. The goal is to extract all visible text accurately and output it in a structured JSON format.",
+    "difficulty": "medium",
+    "category": "computer_vision",
+    "input_dir": "input",
+    "input_files": [],
+    "expected_outputs": {
+        "solution_file": "solution.json",
+        "format": "json",
+        "ground_truth_file": "ground_truth_text.json",
+        "sample": "{\n  \"predictions\": {\n    \"image_1.png\": {\n      \"text\": \"Hello World\",\n      \"confidence\": 0.95\n    },\n    \"image_2.png\": {\n      \"text\": \"Sample Text\",\n      \"confidence\": 0.87\n    }\n  }\n}"
+    },
+    "evaluation_criteria": {
+        "accuracy_threshold": 0.8,
+        "metric": "text_similarity"
+    },
+    "timeout_seconds": 600
+}
