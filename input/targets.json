@@ -1,0 +1,77 @@
+{
+  "image_1.png": {
+    "text": "Model evaluation is crucial for understanding how well a machine learning model performs on unseen data.",
+    "type": "document",
+    "difficulty": "hard"
+  },
+  "image_2.png": {
+    "text": "Deep Learning",
+    "type": "noisy",
+    "difficulty": "hard"
+  },
+  "image_3.png": {
+    "text": "Text Recognition",
+    "type": "noisy",
+    "difficulty": "hard"
+  },
+  "image_4.png": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "type": "handwritten",
+    "difficulty": "medium"
+  },
+  "image_5.png": {
+    "text": "Computer Vision",
+    "type": "noisy",
+    "difficulty": "hard"
+  },
+  "image_6.png": {
+    "text": "Machine learning algorithms learn from data patterns",
+    "type": "rotated",
+    "difficulty": "medium"
+  },
+  "image_7.png": {
+    "text": "Data preprocessing is crucial for ML success",
+    "type": "rotated",
+    "difficulty": "medium"
+  },
+  "image_8.png": {
+    "text": "Machine learning algorithms learn from data patterns",
+    "type": "handwritten",
+    "difficulty": "medium"
+  },
+  "image_9.png": {
+    "text": "Optical Character Recognition (OCR) is a technology that converts different types of documents into editable and searchable data.",
+    "type": "document",
+    "difficulty": "hard"
+  },
+  "image_10.png": {
+    "text": "Deep neural networks have revolutionized AI",
+    "type": "medium",
+    "difficulty": "medium"
+  },
+  "image_11.png": {
+    "text": "Natural language processing combines computational linguistics with machine learning to help computers understand human language.",
+    "type": "document",
+    "difficulty": "hard"
+  },
+  "image_12.png": {
+    "text": "Machine learning is a subset of artificial intelligence that focuses on algorithms that can learn from data.",
+    "type": "hard",
+    "difficulty": "hard"
+  },
+  "image_13.png": {
+    "text": "Computer vision enables machines to interpret visual information",
+    "type": "rotated",
+    "difficulty": "medium"
+  },
+  "image_14.png": {
+    "text": "Python is a powerful programming language",
+    "type": "medium",
+    "difficulty": "medium"
+  },
+  "image_15.png": {
+    "text": "Machine learning algorithms learn from data patterns",
+    "type": "medium",
+    "difficulty": "medium"
+  }
+}
